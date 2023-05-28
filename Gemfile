@@ -47,6 +47,9 @@ group :development do
   gem 'binding_of_caller'
   gem 'solargraph'
   gem 'annotate'
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
